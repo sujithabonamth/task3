@@ -1,0 +1,291 @@
+* {
+  padding: 0;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-image: url("background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.inner-heading {
+  border: 1px solid #5d6266;
+ 
+}
+
+hr {
+  margin: auto;
+}
+
+.header {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  
+  font-size: 12px;
+
+}
+
+.header ul li .itemscheckout {
+  color: rgba(66, 71, 116, 0.9);
+}
+
+.header ul {
+  display: flex;
+  list-style-type: none;
+}
+.header li:not(:last-child):after {
+  content: "|";
+  padding: 0 10px;
+}
+
+
+.topnav ul li:last-child {
+  border-right: none;
+
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: #424242;
+
+}
+
+.topnav {
+  background-color: #d7d6d4;
+}
+
+.topnav li a {
+  text-decoration: none;
+
+  color: black;
+}
+
+.topnav li {
+  list-style-type: none;
+
+
+  border-right: 1px solid white;
+  padding: 10px;
+}
+
+.search {
+  margin-left: 20px;
+  font-size: 10px;
+  padding: 2px 8px;
+  width: 140px;
+
+  border: none;
+}
+
+.go {
+  font-size: 10px;
+  border-radius: 4px;
+  border-width: thin;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+.items li {
+  
+  color: rgba(65, 71, 116, 0.9);
+
+}
+.bridal {
+  display: flex;
+  
+  align-items: center;
+  
+  margin-right: 24px;
+}
+.logo-text{
+  padding-left: 10px;
+  font-size: 12px;
+    color: rgba(65, 71, 116, 0.9);
+}
+.items ul {
+  width: 960px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+  align-items: center;
+  font-size: 16px;
+
+}
+
+h3 {
+  padding: 20px;
+
+}
+
+.dining {
+
+  display: flex;
+  
+ 
+}
+
+
+
+.container {
+  width: 980px;
+  margin-left: 24px;
+  margin: auto;
+  padding: 10px;
+
+
+}
+
+.topnav ul {
+  width: 960px;
+  margin: auto;
+  display: flex;
+  border-top: 1px solid#dfdccd;
+  border-bottom: 1px solid#dfdccd;
+
+}
+.sub-heading{
+  color: #aaaaaa;
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+.heading {
+  padding: 5px;
+  margin-left: 20px;
+  background-color: #424242;
+  color: white;
+  
+}
+.heading ul  :last-child {
+  border-bottom: none;
+}
+.heading li {
+  list-style-type: none;
+
+  border-bottom: rgba(166, 166, 166, 0.2) thin solid;
+
+  padding-left: 10px;
+  margin: 24px;
+  margin-right: 24px;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+.footer ul {
+  list-style-type: none;
+  display: flex;
+  font-size: 12px;
+  line-height: 25px;
+  color: white;
+  border-radius: 15px 15px;
+}
+
+.footer a {
+  color: white;
+}
+
+.information {
+  margin-left: 20px;
+}
+
+.images {
+  display: flex;
+  border: 10px solid black;
+  background-color: white;
+}
+
+.promo-glass {
+
+  background-image: url("promo_glass.png");
+  background-repeat: no-repeat;
+  border-right: 1px solid #aaaaaa;
+  width: 300px;
+  
+  background-position: bottom left;
+}
+
+.promo-plates {
+  background-image: url("promo_plates.png");
+  background-repeat: no-repeat;
+  border-right: 1px solid #aaaaaa;
+  width: 300px;
+  
+
+  background-position: bottom;
+}
+.container-body{
+  background-color: #fff;
+  padding: 10px;
+  
+}
+.promo-album {
+  background-image: url("promo_album.png");
+  background-repeat: no-repeat;
+
+  width: 360px;
+  height: 190px;
+  background-position: bottom right;
+}
+
+.info {
+  line-height: 16px;
+  font-size: 12px;
+color:white;
+}
+
+.footer li:not(:last-child):after {
+  content: "|";
+  padding: 5px;
+}
+.items ul li:first-child {
+ list-style-type: none;
+}
+
+.text {
+  font-size: 12px;
+  
+  padding: 0px 20px 5px 8px;
+
+}
+
+.side-heading {
+  font-size: 9px;
+  padding: 0px 10px 10px;
+  
+}
+
+.link {
+  font-size: 10px;
+  float: right;
+  padding: 0px 14px 21px;
+  text-decoration: none;
+  color: rgba(65, 71, 116, 0.9);
+}
+
+.links {
+  text-decoration: none;
+  color: rgba(65, 71, 116, 0.9);
+  padding: 0px 14px 21px;
+}
+.form-email{
+  padding: 2px 8px;
+  width:180px;
+ border-width: thin;
+ 
+}
+.Signup{
+  border-radius: 8px;
+  border-width: thin;
+}
